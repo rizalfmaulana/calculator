@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Calculator</title>
     <script>
         function Sup(){
@@ -20,7 +21,7 @@
         <table>
             <tr>
                 <td><input type="button" value="C" onclick="document.calc.textview.value = ''" class="btn"></td>
-                <td><input type="button" value="Sup" onclick="Sup()" class="btn"></td>
+                <td><input type="button" style="font-size: 18px" value="Sup" onclick="Sup()" class="btn"></td>
                 <td><input type="button" value="√" onclick="document.calc.textview.value = Math.sqrt(document.calc.textview.value)" class="btn"></td>
                 <td><input type="button" value="/" onclick="document.calc.textview.value += '/'" class="btn"></td>
             </tr>
@@ -40,7 +41,7 @@
                 <td><input type="button" value="1" onclick="document.calc.textview.value += '1'" class="btn"></td>
                 <td><input type="button" value="2" onclick="document.calc.textview.value += '2'" class="btn"></td>
                 <td><input type="button" value="3" onclick="document.calc.textview.value += '3'" class="btn"></td>
-                <td rowspan="2"><input type="button" value="+" onclick="document.calc.textview.value += '+'" class="btn"></td>
+                <td rowspan="2"><input style="height: 115px" type="button" value="+" onclick="document.calc.textview.value += '+'" class="btn"></td>
             </tr>
             <tr>
                 <td><input type="button" value="0" onclick="document.calc.textview.value += '0'" class="btn"></td>
